@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footer{
+    background: blueviolet;
+    
+    
+}
+h4:hover{
+    color: black;
+    text-decoration: underline;
+}
+li:hover{
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: azure;
+}
+i{
+    width: 40px;
+    height: 40px;
+    background: cadetblue;
+}
+@media (max-width: 900px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+}
